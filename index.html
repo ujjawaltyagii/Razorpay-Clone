@@ -51,7 +51,8 @@
       <div class="w-[155px] h-[52px] bg-[#E7F1FD] skew-x-[38deg] absolute z-[9] left-4 lg:left-6"></div>
       <div class="w-[175px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[10] left-[4rem] lg:left-[11rem]"></div>
       <div class="absolute top-1/2 left-1/2 z-[100] w-full -translate-x-1/2 -translate-y-1/2 flex justify-center items-center space-x-4">
-        <p class="font-mullish text-[1.02rem]">RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!</p>
+        <p class="font-mullish text-[1.02rem] hidden lg:block">RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!</p>
+        <p class="font-mullish text-[1.02rem] lg:hidden">Automate Payroll In Just 3 Clicks Now!</p>
         <button
          class="bg-lightBlue text-white py-[8px] px-[9px] rounded-md
          font-mullish text-sm font-bold hover:bg-lightBlue500 transition-all duration-200">Know More
@@ -60,7 +61,7 @@
       <div class="rotate-[180deg] w-0 h-0 absolute top-0 bottom-0 right-0 border-b-[52px] border-b-lightBlue border-r-[40px] border-r-transparent z-index-10"></div>
       <div class="hidden lg:block w-2 h-[52px] bg-[#C4DDF9] skew-x-[38deg] absolute right-5 z-[8]"></div>
       <div class="w-[155px] h-[52px] bg-[#E7F1FD] skew-x-[38deg] absolute z-[9] right-4 lg:right-7"></div>
-      <div class="w-[175px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[10] right-[4rem] lg:right-[11rem]"></div>
+      <div class="w-[175px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[10] right-[1rem] lg:right-[11rem]"></div>
     </div>
     
     
@@ -69,7 +70,7 @@
       <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
 
           <!-- logo  -->
-          <a href="/" class="cursor-pointer py-7 pr-7">
+          <a href="/" class="cursor-pointer py-7 pr-7 ml-[9vw] lg:ml-0">
              <img src="./images/logo.svg"
              width="125px"
              height="30px"/>
@@ -149,7 +150,7 @@
 
        <div class="w-10/12 max-w-[1080px] flex  flex-col lg:flex-row justify-between items-center mx-auto">
            <!-- left part -->
-           <div class="space-y-8">
+           <div class="space-y-8 mt-[80px] lg:mt-16">
                <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
                <div class="w-6 h-1 bg-greenLight"></div>
                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Accept payments from customers. Automate payouts to vendors & 
@@ -174,9 +175,9 @@
    <!-- feature section - 1-->
    <section class="relative mt-[190px] overflow-hidden">
        <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
-       class="absolute -top-[8rem] left-[10rem]">
+       class="absolute -top-[8rem] left-[10rem] hidden lg:block">
        <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
-       class="absolute top-[3rem] right-0 inline-block rotate-180">
+       class="absolute top-[3rem] right-0 rotate-180 hidden lg:block">
 
        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
            <!-- heading -->
@@ -223,10 +224,21 @@
                    <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
                        <button
                        class="bg-lightBlue w-full md:w-fit text-white py-[14px] px-[18px] rounded-md
-                       font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200"
-                       >Sign Up Now</button>
+                       font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 flex items-center justify-center gap-3"
+                       >Sign Up Now
+                       <svg
+                                  viewBox="0 0 24 24"
+                                  focusable="false"
+                                  class="w-[20px] h-[20px]"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                  ></path>
+                                </svg>
+                      </button>
                        <!-- hperlink -->
-                       <div class="flex slef-start md:items-center cursor-pointer group">
+                       <div class="flex self-start mb-4 mt-8 md:mt-0 md:mb-0 items-center md:self-center cursor-pointer group">
                            <a href="#"
                            class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200">Know More</a>
                            <i
@@ -239,7 +251,7 @@
                class="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
            </div>
 
-           <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+           <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-4 mt-10">
                <!-- box 1 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-link-icon.svg" alt=""
@@ -591,7 +603,7 @@
                            </div>
                        </button>
                        <!-- hperlink -->
-                       <div class="flex flex-row items-center cursor-pointer group">
+                       <div class="flex flex-row self-start mb-4 mt-8 md:mt-0 md:mb-0 md:self-center items-center cursor-pointer group">
                            <a href="#"
                            class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
                            transition-all duration-200">Know More</a>
@@ -610,7 +622,7 @@
            
           
           <!-- card vala box -->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 my-14">
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 lg:gap-4 my-14">
                <!-- box 1 -->
                   <div
                   class="w-full min-h-[15rem] relative cursor-pointer featureCard2 group">
@@ -817,28 +829,37 @@
    <section class="bg-white relative z-[10]">
        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
            <img src="./images/feature-section1-dottedrows.png" alt=""
-           class="absolute w-[233px] left-[300px] -top-[6rem] z-10">
+           class="absolute w-[233px] left-[300px] -top-[6rem] z-10 hidden lg:block">
            <img src="./images/feature-section1-dottedrows.png" alt=""
-           class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10">
+           class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10 hidden lg:block">
 
            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
                <!-- first item -->
                <div class="relative flex items-center z-0">
-                   <h2 class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem]">New in the <br>
+                   <h2 class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem] hidden lg:block">New in the <br>
                        <span class="text-lightBlue500">
                           Razorpay <br>
                        </span>
                        Product Suite
                    </h2>
+                   <h2 class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem] lg:hidden">New in the
+                    <span class="text-lightBlue500">
+                       Razorpay <br>
+                    </span>
+                    Product Suite
+                </h2>
                </div>
                <!-- card - 1 -->
                   <div
                   class="p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
                   bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                   hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white">
-                     <img src="./images/razorpayXicon.svg" alt=""
-                     class="w-10 h-10">
-                     <h3 class="font-mullish font-bold text-lg pt-4">Corporate Cards</h3>
+                  <div class="flex sm:flex-row space-x-3  lg:space-x-0 lg:flex-col">
+                    <img src="./images/razorpayXicon.svg" alt=""
+                    class="w-10 h-10">
+                    <h3 class="font-mullish font-bold text-lg pt-4">Corporate Cards</h3>
+                  </div>   
+                  
                      <p class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
                      <div class="flex flex-row items-center cursor-pointer group">
                        <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
