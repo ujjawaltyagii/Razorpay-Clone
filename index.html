@@ -21,11 +21,7 @@
             background-size: 100% 100%;
             padding-top: 12rem;
             padding-bottom: 12rem;
-            /* @media screen and (max-width: 1023px) {
-              background-position: right;
-              
-              
-            } */
+           
       }
 
       .ctasection{
@@ -44,6 +40,14 @@
           top: -50%;
         }
       }
+      @media (max-width: 767px)  {
+              .corefeaturesection{
+                background-size: 120rem 100%;
+                 padding-top: 15rem;
+                 padding-bottom: 10rem;
+                 margin-top: -104px;
+             }
+          }
     </style>
 </head>
 <body>
@@ -260,7 +264,7 @@
                <!-- box 1 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-link-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -307,7 +311,7 @@
                <!-- box 2 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-pages-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -354,7 +358,7 @@
                <!-- box 3 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-buttons-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -401,7 +405,7 @@
                <!-- box 4 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/subscriptions-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -448,7 +452,7 @@
                <!-- box 5 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/route-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -495,7 +499,7 @@
                <!-- box 6 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/smart-collect-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-8 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -549,7 +553,7 @@
    </section>
   
     <!-- feature section - 2 -->
-    <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[7rem] md:pt-[10rem] pb-[350px] mt-14 z-[11] relative">
+    <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[7rem] md:pt-[10rem] pb-[169px] md:pb-[239px] lg:pb-[350px] mt-14 z-[11] relative">
        <div  class="w-10/12 max-w-[1080px] mx-auto pt-4">
 
           <h2 class="font-mullish text-center text-2xl text-white font-bold hidden md:block">Explore Razorpay Business Banking</h2>
@@ -1020,11 +1024,15 @@
    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
      <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row">
        <!-- left part -->
-          <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)]">
-            <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
+          <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] mt-16 mb-14 md:mt-0">
+            <h2 class="font-mullish font-bold text-2xl text-deepBlueHead hidden lg:block">Join the 50,00,000+ businesses using Razorpay</h2>
+            <h2 class="font-mullish font-bold text-2xl text-black lg:hidden">Join the 50,00,000+ businesses using Razorpay</h2>
             <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
-            <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
-            <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+            <p class="font-mullish opacity-80 hidden lg:block">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+            <p class="font-mullish mt-6 opacity-80 hidden lg:block">Focus on your business while we handle the complexities of payments for you.</p>
+
+            <p class="font-mullish opacity-90 lg:hidden">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+            <p class="font-mullish mt-6 opacity-90 lg:hidden">Focus on your business while we handle the complexities of payments for you.</p>
           </div>
 
        <!-- right image part -->
