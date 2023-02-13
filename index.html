@@ -21,6 +21,11 @@
             background-size: 100% 100%;
             padding-top: 12rem;
             padding-bottom: 12rem;
+            /* @media screen and (max-width: 1023px) {
+              background-position: right;
+              
+              
+            } */
       }
 
       .ctasection{
@@ -255,7 +260,7 @@
                <!-- box 1 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-link-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -302,7 +307,7 @@
                <!-- box 2 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-pages-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -349,7 +354,7 @@
                <!-- box 3 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/payment-buttons-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -396,7 +401,7 @@
                <!-- box 4 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/subscriptions-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -443,7 +448,7 @@
                <!-- box 5 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/route-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -490,7 +495,7 @@
                <!-- box 6 -->
                <div class="w-full min-h-[15rem] relative cursor-pointer group">
                    <img src="./images/smart-collect-icon.svg" alt=""
-                   class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                   class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[8]
                    transition-all duration-200">
                    <!-- box shape -->
                    <svg
@@ -544,11 +549,12 @@
    </section>
   
     <!-- feature section - 2 -->
-    <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[10rem] pb-[350px] mt-14 z-[11] relative">
+    <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[7rem] md:pt-[10rem] pb-[350px] mt-14 z-[11] relative">
        <div  class="w-10/12 max-w-[1080px] mx-auto pt-4">
 
-          <h2 class="font-mullish text-center text-2xl text-white font-bold">Explore Razorpay Business Banking</h2>
-          <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-20"></div>
+          <h2 class="font-mullish text-center text-2xl text-white font-bold hidden md:block">Explore Razorpay Business Banking</h2>
+          <h2 class="font-mullish text-center text-4xl text-white font-bold md:hidden">Explore Razorpay Business Banking</h2>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-14 md:mb-20"></div>
 
           <!-- box for main feautures(x3) -->
           <div class="w-full min-h-[440px] flex flex-col relative">
@@ -603,7 +609,7 @@
                            </div>
                        </button>
                        <!-- hperlink -->
-                       <div class="flex flex-row self-start mb-4 mt-8 md:mt-0 md:mb-0 md:self-center items-center cursor-pointer group">
+                       <div class="flex flex-row self-start mb-4 mt-1 md:mt-0 md:mb-0 md:self-center items-center cursor-pointer group">
                            <a href="#"
                            class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
                            transition-all duration-200">Know More</a>
@@ -629,7 +635,7 @@
                   <!-- box icon -->
                   <img
                     src="images/current-icon.svg"
-                    class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                    class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
                   />
                   <!-- box shape -->
                   <svg
@@ -688,7 +694,7 @@
                <!-- box icon -->
                <img
                  src="images/capital-credit-icon.svg"
-                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                 class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
                />
                <!-- box shape -->
                <svg
@@ -742,7 +748,7 @@
                <!-- box icon -->
                <img
                  src="images/payouts-icon.svg"
-                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                 class="bg-lightBlue absolute right-6 md:right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
                />
                <!-- box shape -->
                <svg
@@ -842,7 +848,7 @@
                        </span>
                        Product Suite
                    </h2>
-                   <h2 class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem] lg:hidden">New in the
+                   <h2 class="text-deepBlueHead font-mullish font-extrabold text-5xl leading-[3.375rem] lg:hidden">New in the
                     <span class="text-lightBlue500">
                        Razorpay <br>
                     </span>
@@ -854,10 +860,10 @@
                   class="p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
                   bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                   hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white">
-                  <div class="flex sm:flex-row space-x-3  lg:space-x-0 lg:flex-col">
+                  <div class="flex sm:flex-row space-x-3 self-baseline lg:space-x-0 lg:flex-col">
                     <img src="./images/razorpayXicon.svg" alt=""
                     class="w-10 h-10">
-                    <h3 class="font-mullish font-bold text-lg pt-4">Corporate Cards</h3>
+                    <h3 class="font-mullish font-bold text-lg pt-2 lg:pt-4">Corporate Cards</h3>
                   </div>   
                   
                      <p class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
@@ -873,9 +879,12 @@
                class="p-10 bg-[url(/images/upi-autopay-bg.svg)] w-full max-h-[300px] cursor-pointer
                bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                hover:bg-[url(/images/upi-autopay-hoverbg.svg)] bg-white">
-                  <img src="./images/razorpayXicon.svg" alt=""
-                  class="w-10 h-10">
-                  <h3 class="font-mullish font-bold text-lg pt-4">UPI AutoPay</h3>
+                  <div class="flex sm:flex-row space-x-3 self-baseline lg:space-x-0 lg:flex-col">
+                    <img src="./images/razorpayXicon.svg" alt=""
+                    class="w-10 h-10">
+                  <h3 class="font-mullish font-bold text-lg pt-2 lg:pt-4">UPI AutoPay</h3>
+                  </div>
+                
                   <p class="font-mullish py-3 text-grayText leading-normal">Allow customers to set up recurring payments using UPI Apps.</p>
                   <div class="flex flex-row items-center cursor-pointer group">
                     <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
@@ -889,9 +898,12 @@
                class="p-10 bg-[url(/images/magic-checkout-bg.svg)] w-full max-h-[300px] cursor-pointer
                bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                hover:bg-[url(/images/magic-checkout-hoverbg.svg)] bg-white">
-                  <img src="./images/magic-checkout.svg" alt=""
-                  class="w-10 h-10">
-                  <h3 class="font-mullish font-bold text-lg pt-4">Magic Checkout</h3>
+                  <div class="flex sm:flex-row space-x-3 self-baseline lg:space-x-0 lg:flex-col">
+                    <img src="./images/magic-checkout.svg" alt=""
+                    class="w-10 h-10">
+                  <h3 class="font-mullish font-bold text-lg pt-2 lg:pt-4">Magic Checkout</h3>
+                  </div>
+                  
                   <p class="font-mullish py-3 text-grayText leading-normal">Improve your order conversion rates & reduce return-to-origins. Boost your business by 20%</p>
                   <div class="flex flex-row items-center cursor-pointer group">
                     <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
@@ -905,9 +917,12 @@
                class="p-10 bg-[url(/images/payment-button-bg.svg)] w-full max-h-[300px] cursor-pointer
                bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                hover:bg-[url(/images/payment-button-hoverbg.svg)] bg-white">
-                  <img src="./images/razorpayXicon.svg" alt=""
-                  class="w-10 h-10">
-                  <h3 class="font-mullish font-bold text-lg pt-4">Payment Button</h3>
+                  <div class="flex sm:flex-row space-x-3 self-baseline lg:space-x-0 lg:flex-col">
+                    <img src="./images/razorpayXicon.svg" alt=""
+                    class="w-10 h-10">
+                    <h3 class="font-mullish font-bold text-lg pt-2 lg:pt-4">Payment Button</h3>
+                  </div>
+                  
                   <p class="font-mullish py-3 text-grayText leading-normal">Accept payments on your website, in less than 5 minutes. No developer needed.</p>
                   <div class="flex flex-row items-center cursor-pointer group">
                     <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
@@ -921,9 +936,12 @@
                class="p-10 bg-[url(/images/instantsettlement-bg.svg)] w-full max-h-[300px] cursor-pointer
                bg-no-repeat hover:scale-105 transition-all duration-200 drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)]
                hover:bg-[url(/images/instantsettlement-hoverbg.svg)] bg-white">
-                  <img src="./images/razorpayXicon.svg" alt=""
-                  class="w-10 h-10">
-                  <h3 class="font-mullish font-bold text-lg pt-4">Instant Settlements</h3>
+                  <div class="flex sm:flex-row space-x-3 self-baseline lg:space-x-0 lg:flex-col">
+                    <img src="./images/razorpayXicon.svg" alt=""
+                    class="w-10 h-10">
+                    <h3 class="font-mullish font-bold text-lg pt-2 lg:pt-4">Instant Settlements</h3>
+                  </div>
+                  
                   <p class="font-mullish py-3 text-grayText leading-normal">Settle your customer payments within 10 seconds as soon your account is activated, even during holidays.</p>
                   <div class="flex flex-row items-center cursor-pointer group">
                     <a href="" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue
