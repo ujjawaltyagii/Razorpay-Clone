@@ -48,6 +48,17 @@
                  margin-top: -104px;
              }
           }
+          @media (max-width: 1023px){
+            .ctasection{
+              background-size: 130% 100%;
+              min-height: 650px;
+            } 
+        }
+        @media (max-width: 767px){
+          .ctasection{
+            background-size: 190% 100%;
+          }
+        }
     </style>
 </head>
 <body>
@@ -1115,11 +1126,11 @@
    </section>
 
    <!-- last section -->
-   <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection min-h-[510px]">
+   <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection lg:min-h-[510px]">
      <!-- main content box -->
-    <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center justify-between mx-auto space-x-20 pt-16">
+    <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center lg:justify-between mx-auto space-x-20 pt-36 lg:pt-16">
        <!-- left part -->
-       <div class="flex flex-col gap-5 mt-12 w-full lg:right-0 lg:max-w-[650px]">
+       <div class="flex flex-col gap-5 mt-12 ml-5 sm:ml-10 lg:ml-0 w-full lg:max-w-[650px]">
         <h2 class="font-mullish font-bold text-2xl text-white">Supercharge your business with Razorpay</h2>
         <div class="w-6 h-1 bg-greenLight"></div>
         <p class="font-mullish text-white">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
