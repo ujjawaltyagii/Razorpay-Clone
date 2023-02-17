@@ -20,8 +20,7 @@
       .corefeaturesection{
             background-size: 100% 100%;
             padding-top: 12rem;
-            padding-bottom: 12rem;
-           
+            padding-bottom: 12rem;       
       }
 
       .ctasection{
@@ -86,11 +85,11 @@
     
     
     <!-- Navbar -->
-    <nav class="bg-deepBlue">
-      <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+    <nav class="bg-deepBlue p-[0px_32px]">
+      <div class="relative max-w-[1080px] mx-auto flex items-center justify-between">
 
           <!-- logo  -->
-          <a href="/" class="cursor-pointer py-7 pr-7 ml-[9vw] lg:ml-0">
+          <a href="/" class="cursor-pointer py-7 pr-7">
              <img src="./images/logo.svg"
              width="125px"
              height="30px"/>
@@ -162,15 +161,17 @@
       </svg></button>
        </div>
 
+      
+
       </div>
    </nav>
 
    <!-- Hero Section -->
-   <section class="relative bg-deepBlue overflow-x-clip">
+   <section class="relative bg-deepBlue overflow-x-clip p-[0px_32px]">
 
-       <div class="w-10/12 max-w-[1080px] flex  flex-col lg:flex-row justify-between items-center mx-auto">
+       <div class=" w-[100%] max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto">
            <!-- left part -->
-           <div class="space-y-8 mt-[80px] lg:mt-16">
+           <div class="space-y-8 lg:max-w-[400px] mt-[80px] lg:mt-16">
                <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
                <div class="w-6 h-1 bg-greenLight"></div>
                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Accept payments from customers. Automate payouts to vendors & 
@@ -182,8 +183,11 @@
                >Sign Up Now</button>
            </div>
            <!-- right part -->
-           <img src="./images/hero-illustration.jpg" alt=""
-           class="w-full max-w-[680px]">
+           <div class="w-fit max-w-[680px]  mt-[140px] lg:mt-0">
+            <img src="./images/hero-illustration.jpg" alt=""
+            class="">
+          </div>
+           
        </div>
         <!-- shape part -->
         <div class="w-[103%] absolute left-0">
